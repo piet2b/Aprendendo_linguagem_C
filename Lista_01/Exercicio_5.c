@@ -10,7 +10,7 @@ int main (){
 	
 	B = A / 5;
 	
-	printf ("essa é a quinta parte: %d. \n", B);
+	printf ("essa e a quinta parte: %d. \n", B);
 	return 0;
 	
 }
