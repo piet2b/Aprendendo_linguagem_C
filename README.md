@@ -1,1 +1,1 @@
-# Essa é a minha lista de exercícios que fiz para praticar.
+# Esses são os exercícios que fiz para praticar.
