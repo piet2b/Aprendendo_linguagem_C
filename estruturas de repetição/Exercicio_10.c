@@ -3,7 +3,6 @@
 int main() {
    
     int tamanho = 0;
-       
 
     printf("Digite uma entrada: ");
 
