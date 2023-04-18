@@ -28,7 +28,7 @@ int main() {
       break;
     }
   }
-
+  // Mostra a resposta
   if (iguais) {
     printf("Os dois vetores são idênticos.\n");
   } else {
