@@ -1,6 +1,7 @@
 #include <stdio.h>
 
-/*Faça um programa que leia 10 valores e os armazene em um vetor. Depois, imprima o vetor na ordem */
+/*Faça um programa que leia 10 valores e os armazene em um vetor. 
+Depois, imprima o vetor na ordem */
 
 int main() {
     int vetor[10];
