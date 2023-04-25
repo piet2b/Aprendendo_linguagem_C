@@ -6,7 +6,7 @@ int main() {
     do {
         printf("Digite o tamanho do sapato (ou um número menor ou igual a 0 para sair): ");
         scanf("%d", &num_sapatos);
-        
+    
         if (num_sapatos > 39) {
             num_acima_39++;
         }
