@@ -6,7 +6,8 @@ produto de todos os números inteiros de 1 até o próprio número. No programa
 principal, peça ao usuário para digitar um número, chame a função "fatorial"
 passando esse número como argumento e exiba o resultado.*/
 
-int fatorial (int n) {
+int fatorial (int n) { 
+    // Funciona apenas para números pequenos
     int resultado = 1;
     for (int i = 1; i <= n; i++) {
         resultado *= i;
