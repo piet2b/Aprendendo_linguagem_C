@@ -18,17 +18,17 @@ int main() {
     min_val = valor[0];
     min_index = 0;
 
-    // Achar o valor mìnimo e a posição
+    // Achar o valor mínimo e a posição
     for (int i = 1; i < 10; i++) {
         if (valor[i] < min_val) {
             min_val = valor[i];
-            min_index = i+1;
+            min_index = i;
         }
     }
 
     // Display
     printf("O VALOR MINIMO E: %d\n", min_val);
-    printf("POSICAO: %d\n", min_index);
+    printf("POSICAO: %d\n", min_index +1);
 
     return 0;
 }
