@@ -7,16 +7,16 @@ int main() {
     int N;
     int soma = 0;
 
-    // Solicitar o valor de N ao usuário
+    // Input
     printf("Digite um número inteiro positivo: ");
     scanf("%d", &N);
 
-    // Calcular a soma dos primeiros N números inteiros positivos
+    // Soma
     for (int i = 1; i <= N; i++) {
         soma += i;
     }
 
-    // Exibir o resultado da soma
+    // Display
     printf("A soma dos primeiros %d números inteiros positivos é: %d\n", N, soma);
 
     return 0;
